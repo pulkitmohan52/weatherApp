@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://cdn.dribbble.com/users/542624/screenshots/2799134/firewatch.png');
+    background-size: auto;
+    background-position: top center;
+}
+.app-wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+}
+
+header{
+    margin-top: 10px;
+    align-items: center;
+    padding: 0px 15px 15px;
+}
+header input{
+    width: 100%;
+    width: 250px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgb(173, 169, 169);
+    font-size: 20px;
+    color: rgb(34, 31, 31);
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+header input:focus{
+    background-color: rgba(255,255,255,0.6);
+}
+.location .city{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.location .date{
+    color: #fff;
+    font-size: 16px;
+}
+.current .temp{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 900;
+    margin: 30px 0 0 0;
+    margin-left: 20px;
+    text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+}
+.current .weather{
+    color: #fff;
+    font-size: 37px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.6);
+}
+.current .high-low{
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
